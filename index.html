@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,10 +6,44 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
 <body>
 
+<div class="container">
+    <div class="programs__field">
+        <h2>Test</h2>
+        <div class="programs__field--value">
+            <div class="field__value--top">
+                <div class="value__top-box">
+                    <p>Name/Value Pair</p>
+                    <input name="inputValue" class="input__value" placeholder="Name=Value" type="text">
+                </div>
+                <div class="value__top-buttons">
+                    <button>Add</button>
+                </div>
+
+            </div>
+            <div class="field__value--bottom">
+                <div class="value__top-box">
+                    <p>Name/Value Pair List</p>
+                    <div class="input__list"></div>
+                </div>
+
+                <div class="value__top-buttons">
+
+                    <button>Sort by Name</button>
+                    <button>Sort by Value</button>
+                    <button>Delete</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
 
 <script src="./script.js"></script>
+
 </body>
 </html>
